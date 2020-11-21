@@ -3,11 +3,6 @@ language: java
 jdk:
  - oraclejdk11
 
-sudo: true
-
-
-deploy:
- - mvn clean verify
-
 after_deploy:
- - echo "done deploying"
+- echo "done deploying"
+- mvn clean verify
