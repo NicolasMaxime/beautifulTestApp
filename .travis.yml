@@ -3,6 +3,10 @@ language: java
 jdk:
  - oraclejdk11
 
+rvm:
+ -2.2
+ -jruby
+
 sudo: false
 
 
