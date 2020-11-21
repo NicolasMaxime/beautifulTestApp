@@ -7,7 +7,6 @@ sudo: false
 
 
 deploy:
- - ./mvnw spring-boot:run
  - mvn clean verify
 
 after_deploy:

@@ -11,7 +11,7 @@ import org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;
 
-@SpringBootTest
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 class BootifulApplicationTests {
 
 	@Test
