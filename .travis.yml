@@ -3,15 +3,10 @@ language: java
 jdk:
  - oraclejdk11
 
-rvm:
- -2.2
- -jruby
-
-sudo: false
+sudo: true
 
 
 deploy:
- - ./mvnw
  - mvn clean verify
 
 after_deploy:
